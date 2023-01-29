@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-01-29">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="AAPL" label="AAPL" />
+      <node id="GOOGL" label="GOOGL" />
+      <node id="MSFT" label="MSFT" />
+      <node id="BAC" label="BAC" />
+      <node id="GS" label="GS" />
+      <node id="JPM" label="JPM" />
+      <node id="BLK" label="BLK" />
+      <node id="MCD" label="MCD" />
+      <node id="NDAQ" label="NDAQ" />
+      <node id="CME" label="CME" />
+      <node id="CMG" label="CMG" />
+      <node id="NVDA" label="NVDA" />
+      <node id="CRM" label="CRM" />
+      <node id="FB" label="FB" />
+      <node id="DXC" label="DXC" />
+      <node id="EA" label="EA" />
+      <node id="GOOG" label="GOOG" />
+      <node id="GD" label="GD" />
+      <node id="KO" label="KO" />
+      <node id="HPE" label="HPE" />
+      <node id="IBM" label="IBM" />
+      <node id="INTC" label="INTC" />
+      <node id="NFLX" label="NFLX" />
+      <node id="NOC" label="NOC" />
+      <node id="QCOM" label="QCOM" />
+    </nodes>
+    <edges>
+      <edge source="AAPL" target="GOOGL" id="0" />
+      <edge source="AAPL" target="MSFT" id="1" />
+      <edge source="GOOGL" target="FB" id="2" />
+      <edge source="GOOGL" target="GOOG" id="3" />
+      <edge source="GOOGL" target="MSFT" id="4" />
+      <edge source="GOOGL" target="INTC" id="5" />
+      <edge source="MSFT" target="CRM" id="6" />
+      <edge source="MSFT" target="GOOG" id="7" />
+      <edge source="MSFT" target="INTC" id="8" />
+      <edge source="MSFT" target="NVDA" id="9" />
+      <edge source="MSFT" target="QCOM" id="10" />
+      <edge source="BAC" target="GS" id="11" />
+      <edge source="BAC" target="JPM" id="12" />
+      <edge source="BAC" target="DXC" id="13" />
+      <edge source="GS" target="JPM" id="14" />
+      <edge source="JPM" target="GD" id="15" />
+      <edge source="BLK" target="MCD" id="16" />
+      <edge source="BLK" target="NDAQ" id="17" />
+      <edge source="BLK" target="IBM" id="18" />
+      <edge source="BLK" target="KO" id="19" />
+      <edge source="BLK" target="NOC" id="20" />
+      <edge source="MCD" target="CME" id="21" />
+      <edge source="MCD" target="CMG" id="22" />
+      <edge source="MCD" target="DXC" id="23" />
+      <edge source="MCD" target="NVDA" id="24" />
+      <edge source="NDAQ" target="CME" id="25" />
+      <edge source="NDAQ" target="EA" id="26" />
+      <edge source="CME" target="EA" id="27" />
+      <edge source="CMG" target="NVDA" id="28" />
+      <edge source="NVDA" target="QCOM" id="29" />
+      <edge source="CRM" target="FB" id="30" />
+      <edge source="CRM" target="NFLX" id="31" />
+      <edge source="FB" target="GOOG" id="32" />
+      <edge source="FB" target="NFLX" id="33" />
+      <edge source="GD" target="KO" id="34" />
+      <edge source="GD" target="HPE" id="35" />
+      <edge source="GD" target="NOC" id="36" />
+      <edge source="KO" target="IBM" id="37" />
+      <edge source="HPE" target="IBM" id="38" />
+    </edges>
+  </graph>
+</gexf>
